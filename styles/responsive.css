@@ -1,0 +1,21 @@
+@media screen and (max-width:576px){
+    .container, .nav-options, .explore-container, .travel-inputs{
+        flex-direction:column;
+    }
+    .nav-options{
+        margin-top:3rem;
+        text-align:center;
+    }
+
+    .explore-container{
+        width:100%;
+    }
+    .explore-container p{
+        width:calc(100% - 50px);
+    }
+
+    input, select{
+       width:90%;
+       margin:1.25rem;
+    }
+}
