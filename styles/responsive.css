@@ -1,7 +1,25 @@
 @media screen and (max-width:576px){
-    .container, .nav-options, .explore-container, .travel-inputs{
+    .container, 
+    .nav-options, 
+    .explore-container,
+     .travel-inputs{
         flex-direction:column;
     }
+
+    .popular-section{
+        grid-template-columns:1fr;
+        width:100%;
+    }
+    .popular-section .text-content{
+        width:calc(100% - 90px);
+        margin-left:50px;
+    }
+
+    .popular-section .image-content img{
+       width:calc(100% - 30px);
+       margin-left:15px;
+    }
+
     .nav-options{
         margin-top:3rem;
         text-align:center;
