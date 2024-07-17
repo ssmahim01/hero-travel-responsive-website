@@ -6,9 +6,18 @@
         flex-direction:column;
     }
 
-    .popular-section{
+    .popular-section, 
+    .row-1, 
+    .row-2, 
+    .row-3, 
+    .news-letter-section{
         grid-template-columns:1fr;
         width:100%;
+    }
+
+    .choose-destination p{
+        font-size:0.8rem;
+        /* margin:0 auto; */
     }
     .popular-section .text-content{
         width:calc(100% - 90px);
@@ -35,5 +44,18 @@
     input, select{
        width:90%;
        margin:1.25rem;
+    }
+
+    .news-letter-section{
+        width:calc(100% - 10px);
+    }
+
+    .news-letter-inputs{
+        padding:10px;
+    }
+
+    .news-letter-image #news-letter-btn{
+    margin-left:-12%;
+    margin-top:2.5rem;
     }
 }
