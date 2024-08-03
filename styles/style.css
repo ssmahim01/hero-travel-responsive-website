@@ -100,7 +100,11 @@ li{
         backdrop-filter: blur(4px);
     }
 
-    input, select{
+    .first-select{
+        -webkit-appearance:none;
+    }
+
+   select{
         width:175px;
         height:50px;
         padding:0 0.5rem;
@@ -110,6 +114,7 @@ li{
         cursor: pointer;
         font-size:16px;
     }
+
     .btn-primary{
         width:175px;
         height:50px;
@@ -240,6 +245,8 @@ input, #input-btn{
 }
 
 input{
+    border:none;
+    padding-left:1rem;
     border-radius: 8px;
 background: rgba(19, 19, 24, 0.05);
 }
@@ -298,6 +305,13 @@ height: 80px;
 .social i{
     height:44px;
     font-size:1.5rem;
+}
+
+.social i:hover{
+    cursor:pointer;
+    color:rgb(255, 84, 0);
+    border-radius:0.5rem;
+    transform:rotate(45deg);
 }
 
 .footer hr{

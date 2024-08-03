@@ -5,7 +5,7 @@
      .travel-inputs{
         flex-direction:column;
     }
-
+    
     .popular-section, 
     .row-1, 
     .row-2, 
@@ -15,24 +15,12 @@
         width:100%;
     }
 
-    .choose-destination p{
-        font-size:0.8rem;
-        /* margin:0 auto; */
-    }
-    .popular-section .text-content{
-        width:calc(100% - 90px);
-        margin-left:50px;
-    }
-
-    .popular-section .image-content img{
-       width:calc(100% - 30px);
-       margin-left:15px;
-    }
-
     .nav-options{
         margin-top:3rem;
         text-align:center;
     }
+
+    /* banner responsive */
 
     .explore-container{
         width:100%;
@@ -46,8 +34,31 @@
        margin:1.25rem;
     }
 
+    /* popular tours section responsive */
+
+
+    .popular-section .text-content{
+        width:calc(100% - 90px);
+        margin-left:50px;
+    }
+
+    .popular-section .image-content img{
+       width:calc(100% - 30px);
+       margin-left:15px;
+    }
+
+    /* choose destination section responsive */
+
+    .choose-destination p{
+        font-size:0.8rem;
+        /* margin:0 auto; */
+    }
+
+    /* newsletter section responsive */
+
     .news-letter-section{
-        width:calc(100% - 10px);
+        width:50%;
+        margin:0;
     }
 
     .news-letter-inputs{
@@ -58,6 +69,8 @@
     margin-left:-12%;
     margin-top:2.5rem;
     }
+
+    /* footer responsive */
 
     .footer p{
         font-size:0.8rem;
